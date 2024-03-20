@@ -5,7 +5,7 @@
 1. Install the the `shadowsocks-libev` package from apt repository.
 
         sudo apt update
-        sudo apt install shadowsocks-libev
+        sudo apt install shadowsocks-libev -y
 
 1. Save `ss.json` as `/etc/shadowsocks-libev/config.json`.
 
