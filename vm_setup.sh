@@ -4,6 +4,8 @@ sudo apt install -y vim git xrdp
 # Place the following line above all lines in 
 sudo vim /etc/xrdp/startwm.sh
 
+# Place the following line to end of .bashrc
+
 export GNOME_SHELL_SESSION_MODE=ubuntu
 export XDG_CURRENT_DESKTOP=ubuntu:GNOME
 
