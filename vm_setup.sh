@@ -45,3 +45,14 @@ sudo systemctl enable containerd.service
 sudo apt-get install ./docker-desktop-amd64.deb
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
+
+# Edit this file to keep session open
+# /etc/xrdp/xrdp.ini
+#---------------------
+# [xrdp1]
+# name=customsessionname
+# lib=libvnc.so
+# username=myusername
+# password=ask
+# ip=127.0.0.1
+# port=5912
